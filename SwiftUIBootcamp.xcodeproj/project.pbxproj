@@ -11,6 +11,7 @@
 		66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C55B280590B900CA7B84 /* ContentView.swift */; };
 		66F6C55E280590B900CA7B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C55D280590B900CA7B84 /* Assets.xcassets */; };
 		66F6C561280590B900CA7B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C560280590B900CA7B84 /* Preview Assets.xcassets */; };
+		66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		66F6C55B280590B900CA7B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66F6C55D280590B900CA7B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66F6C560280590B900CA7B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */,
 				66F6C55B280590B900CA7B84 /* ContentView.swift */,
+				66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */,
 				66F6C55D280590B900CA7B84 /* Assets.xcassets */,
 				66F6C55F280590B900CA7B84 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */,
 				66F6C55A280590B900CA7B84 /* SwiftUIBootcampApp.swift in Sources */,
+				66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -45,7 +45,6 @@
 		66F6C54D280590B900CA7B84 = {
 			isa = PBXGroup;
 			children = (
-				66F6C56D2805E1BD00CA7B84 /* Git */,
 				66F6C558280590B900CA7B84 /* SwiftUIBootcamp */,
 				66F6C557280590B900CA7B84 /* Products */,
 			);
@@ -62,6 +61,7 @@
 		66F6C558280590B900CA7B84 /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				66F6C56D2805E1BD00CA7B84 /* Git */,
 				66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */,
 				66F6C55B280590B900CA7B84 /* ContentView.swift */,
 				66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */,

@@ -13,6 +13,7 @@
 		66F6C561280590B900CA7B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C560280590B900CA7B84 /* Preview Assets.xcassets */; };
 		66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */; };
 		66F6C56A2805C0F600CA7B84 /* ColorsGradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */; };
+		66F6C56C2805D83300CA7B84 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		66F6C560280590B900CA7B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsBootcamp.swift; sourceTree = "<group>"; };
 		66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsGradientsBootcamp.swift; sourceTree = "<group>"; };
+		66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				66F6C55B280590B900CA7B84 /* ContentView.swift */,
 				66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */,
 				66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */,
+				66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */,
 				66F6C55D280590B900CA7B84 /* Assets.xcassets */,
 				66F6C55F280590B900CA7B84 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F6C56A2805C0F600CA7B84 /* ColorsGradientsBootcamp.swift in Sources */,
+				66F6C56C2805D83300CA7B84 /* IconsBootcamp.swift in Sources */,
 				66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */,
 				66F6C55A280590B900CA7B84 /* SwiftUIBootcampApp.swift in Sources */,
 				66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */,

@@ -14,6 +14,7 @@
 		66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */; };
 		66F6C56A2805C0F600CA7B84 /* ColorsGradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */; };
 		66F6C56C2805D83300CA7B84 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */; };
+		66F6C56F2805E1ED00CA7B84 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C56E2805E1ED00CA7B84 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsBootcamp.swift; sourceTree = "<group>"; };
 		66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsGradientsBootcamp.swift; sourceTree = "<group>"; };
 		66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
+		66F6C56E2805E1ED00CA7B84 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		66F6C558280590B900CA7B84 /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				66F6C56D2805E1BD00CA7B84 /* Git */,
 				66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */,
 				66F6C55B280590B900CA7B84 /* ContentView.swift */,
 				66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */,
@@ -74,6 +77,14 @@
 				66F6C560280590B900CA7B84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66F6C56D2805E1BD00CA7B84 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				66F6C56E2805E1ED00CA7B84 /* .gitignore */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F6C561280590B900CA7B84 /* Preview Assets.xcassets in Resources */,
+				66F6C56F2805E1ED00CA7B84 /* .gitignore in Resources */,
 				66F6C55E280590B900CA7B84 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

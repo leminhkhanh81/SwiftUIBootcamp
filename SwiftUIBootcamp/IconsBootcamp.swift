@@ -9,17 +9,19 @@ import SwiftUI
 
 struct IconsBootcamp: View {
     var body: some View {
-        Image(systemName: "heart.fill")
+        Image(systemName: "cloud.sun.rain.fill")
+            .renderingMode(.original)
             .resizable()
             //.font(.largeTitle)
             //.font(.system(size: 100))
-            .foregroundColor(Color.pink)
+            //.foregroundColor(Color.pink)
             //.aspectRatio(contentMode: .fill)
             //.aspectRatio(contentMode: .fit)
-            //.scaledToFit()
-            .scaledToFill()
+            .scaledToFit()
+            //.scaledToFill()
             .frame(width: 200, height: 200)
-            .clipped()
+            .background(Color.blue.opacity(0.5))
+            //.clipped()
     }
 }
 

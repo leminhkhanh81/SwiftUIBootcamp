@@ -15,6 +15,7 @@
 		66F6C56A2805C0F600CA7B84 /* ColorsGradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */; };
 		66F6C56C2805D83300CA7B84 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */; };
 		66F6C56F2805E1ED00CA7B84 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C56E2805E1ED00CA7B84 /* .gitignore */; };
+		66F6C5712805E4AE00CA7B84 /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C5702805E4AE00CA7B84 /* ImagesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsGradientsBootcamp.swift; sourceTree = "<group>"; };
 		66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		66F6C56E2805E1ED00CA7B84 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		66F6C5702805E4AE00CA7B84 /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				66F6C567280590DC00CA7B84 /* TextsBootcamp.swift */,
 				66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */,
 				66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */,
+				66F6C5702805E4AE00CA7B84 /* ImagesBootcamp.swift */,
 				66F6C55D280590B900CA7B84 /* Assets.xcassets */,
 				66F6C55F280590B900CA7B84 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 			files = (
 				66F6C56A2805C0F600CA7B84 /* ColorsGradientsBootcamp.swift in Sources */,
 				66F6C56C2805D83300CA7B84 /* IconsBootcamp.swift in Sources */,
+				66F6C5712805E4AE00CA7B84 /* ImagesBootcamp.swift in Sources */,
 				66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */,
 				66F6C55A280590B900CA7B84 /* SwiftUIBootcampApp.swift in Sources */,
 				66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */,

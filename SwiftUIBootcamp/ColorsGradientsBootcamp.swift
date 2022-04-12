@@ -19,8 +19,9 @@ struct ColorsGradientsBootcamp: View {
 //            .fill(
 //                RadialGradient(gradient: Gradient(colors: [Color("CustomColor"), Color.yellow]), center: .bottomTrailing, startRadius: 300.0, endRadius: 20.0)
 //            )
+            .fill(RadialGradient(colors: [Color.black, Color.pink], center: .center, startRadius: 0, endRadius: 150))
 //            .fill(AngularGradient(gradient: Gradient(colors: [Color.red, Color.yellow]), center: .bottomTrailing, startAngle: .degrees(45), endAngle: .degrees(45)))
-            .fill(AngularGradient(gradient: Gradient(colors: [Color.blue, Color.red]), center: .topLeading, startAngle: .zero, endAngle: .degrees(45)))
+//            .fill(AngularGradient(gradient: Gradient(colors: [Color.blue, Color.red]), center: .topLeading, startAngle: .zero, endAngle: .degrees(45)))
             .frame(width: 300, height: 300)
             
     }

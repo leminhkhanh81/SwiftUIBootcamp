@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665643C2280718C70044EFAA /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665643C1280718C70044EFAA /* FrameBootcamp.swift */; };
 		66F6C55A280590B900CA7B84 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */; };
 		66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C55B280590B900CA7B84 /* ContentView.swift */; };
 		66F6C55E280590B900CA7B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C55D280590B900CA7B84 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		665643C1280718C70044EFAA /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		66F6C556280590B900CA7B84 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		66F6C55B280590B900CA7B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				66F6C5692805C0F600CA7B84 /* ColorsGradientsBootcamp.swift */,
 				66F6C56B2805D83300CA7B84 /* IconsBootcamp.swift */,
 				66F6C5702805E4AE00CA7B84 /* ImagesBootcamp.swift */,
+				665643C1280718C70044EFAA /* FrameBootcamp.swift */,
 				66F6C55D280590B900CA7B84 /* Assets.xcassets */,
 				66F6C55F280590B900CA7B84 /* Preview Content */,
 			);
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665643C2280718C70044EFAA /* FrameBootcamp.swift in Sources */,
 				66F6C56A2805C0F600CA7B84 /* ColorsGradientsBootcamp.swift in Sources */,
 				66F6C56C2805D83300CA7B84 /* IconsBootcamp.swift in Sources */,
 				66F6C5712805E4AE00CA7B84 /* ImagesBootcamp.swift in Sources */,

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		665643C2280718C70044EFAA /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665643C1280718C70044EFAA /* FrameBootcamp.swift */; };
 		665643C4280723110044EFAA /* BackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665643C3280723110044EFAA /* BackgroundAndOverlayBootcamp.swift */; };
+		665643C62807348A0044EFAA /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665643C52807348A0044EFAA /* StacksBootcamp.swift */; };
 		66F6C55A280590B900CA7B84 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */; };
 		66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C55B280590B900CA7B84 /* ContentView.swift */; };
 		66F6C55E280590B900CA7B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F6C55D280590B900CA7B84 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		665643C1280718C70044EFAA /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		665643C3280723110044EFAA /* BackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
+		665643C52807348A0044EFAA /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		66F6C556280590B900CA7B84 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6C559280590B900CA7B84 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		66F6C55B280590B900CA7B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				66F6C5702805E4AE00CA7B84 /* ImagesBootcamp.swift */,
 				665643C1280718C70044EFAA /* FrameBootcamp.swift */,
 				665643C3280723110044EFAA /* BackgroundAndOverlayBootcamp.swift */,
+				665643C52807348A0044EFAA /* StacksBootcamp.swift */,
 				66F6C55D280590B900CA7B84 /* Assets.xcassets */,
 				66F6C55F280590B900CA7B84 /* Preview Content */,
 			);
@@ -173,6 +176,7 @@
 				665643C4280723110044EFAA /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				66F6C5712805E4AE00CA7B84 /* ImagesBootcamp.swift in Sources */,
 				66F6C55C280590B900CA7B84 /* ContentView.swift in Sources */,
+				665643C62807348A0044EFAA /* StacksBootcamp.swift in Sources */,
 				66F6C55A280590B900CA7B84 /* SwiftUIBootcampApp.swift in Sources */,
 				66F6C568280590DC00CA7B84 /* TextsBootcamp.swift in Sources */,
 			);

@@ -11,17 +11,33 @@ struct SpacerBootcamp: View {
     var body: some View {
         VStack {
             
+            HStack{
+                Image(systemName: "xmark")
+                Spacer()
+                Image(systemName: "gear")
+            }
+            .font(.largeTitle)
+            .padding(.horizontal)
+            .background(Color.orange)
+            
             Spacer()
                 .frame(height: 50)
             
-            HStack {
+            HStack (spacing: 0){
+                
+                Spacer(minLength: 0)
+                
                 Rectangle()
                     .fill(Color.orange)
                     .frame(width: 100, height: 100)
+                
                 Spacer()
+                
                 Rectangle()
                     .fill(Color.pink)
                     .frame(width: 100, height: 100)
+                
+                Spacer(minLength: 200)
             } //: HSTACK
             .background(Color.purple)
             
@@ -46,8 +62,12 @@ struct SpacerBootcamp: View {
             
             Spacer()
             
+            Rectangle()
+                .frame(maxWidth: .infinity, maxHeight: 50)
+            
         } //: VSTACK
-        //.background(Color.cyan)
+        .padding(.vertical)
+        .background(Color.cyan)
     }
 }
 

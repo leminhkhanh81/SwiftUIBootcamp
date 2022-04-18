@@ -68,15 +68,28 @@ struct GridBootcamp: View {
                       spacing: 6,
                       pinnedViews: [.sectionHeaders], content: {
                 
-                
-                Section("Section 1") {
+                Section(
+                    header: Text("Header")
+                        .font(.largeTitle)
+                        .foregroundColor(Color.white)
+                        .fontWeight(.medium)
+                        .padding(8)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(Color.blue),
+                    footer: Text("Footer")
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .fontWeight(.medium)
+                        .padding(8)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        .background(Color.blue),
+                    content: {
                     ForEach(0 ..< 20) { Item in
                         Image(systemName: "\(Item).circle.fill")
                             .font(.system(size: 40))
                             .foregroundColor(Color.blue)
                     } //: FOREACH
-                } //: SECTION
-                
+                }) //: SECTION
                 
                 Section("Section 2") {
                     ForEach(0 ..< 50) { Item in
@@ -84,6 +97,7 @@ struct GridBootcamp: View {
                             .frame(height: 50)
                     } //: FOREACH
                 } //: SECTION
+                .padding(.top, 30)
    
             })//: LAZYVGRID
             .padding(.bottom)

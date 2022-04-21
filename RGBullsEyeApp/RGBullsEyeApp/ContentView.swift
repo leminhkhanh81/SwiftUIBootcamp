@@ -18,7 +18,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
    
-            CircleColor(color: game.taget)
+            RectangleColor(color: game.taget)
     
             if !showScore {
                 Text("R: ???  G: ???  B: ???")
@@ -35,7 +35,7 @@ struct ContentView: View {
                     .padding(.bottom)
             }
             
-            CircleColor(color: guess)
+            RectangleColor(color: guess)
             
             Text("R: \(Int(guess.red * 255.0))  " + "G: \(Int(guess.green * 255.0))  " + "B: \(Int(guess.blue * 255.0))")
                 .font(.title2)
@@ -90,11 +90,12 @@ struct ColorSlider: View {
     }
 }
 
-struct CircleColor: View {
+struct RectangleColor: View {
     let color: RGB
     var body: some View {
-        Circle()
+        Rectangle()
             .fill(Color(rgb: color))
             .frame(width: 255, height: 255, alignment: .center)
+            .cornerRadius(20)
     }
 }
